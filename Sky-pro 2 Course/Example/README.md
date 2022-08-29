@@ -15,6 +15,7 @@ requests. The repository is going to fill up by new interesting scripts showing 
 ***Getting correct word's end***
 
 '''
+
 def get_correct_end(amount, core_word, end_0, end_1, end_2):    
     
     """Функция подбирает правильное окончание слова для разных
@@ -43,11 +44,13 @@ def get_correct_end(amount, core_word, end_0, end_1, end_2):
             correct_word = core_word + end_1
 
     return correct_word
+    
     '''
 
 ***Returning strings by demanded length***
 
-'''    
+'''
+
 def get_sliced_str(data_str, width=100, sep=' '):
     
     """Функция вставляет символы перевода строки '\\n'
@@ -69,6 +72,7 @@ def get_sliced_str(data_str, width=100, sep=' '):
             str_len = 0
 
     return print_str
+    
     '''
     
     
