@@ -13,6 +13,7 @@ requests. The repository is going to fill up by new interesting scripts showing 
 ## Some examples
 
 ***Getting correct word's end***
+
 '''
 def get_correct_end(amount, core_word, end_0, end_1, end_2):
     """Функция подбирает правильное окончание слова для разных
