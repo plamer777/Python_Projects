@@ -15,7 +15,8 @@ requests. The repository is going to fill up by new interesting scripts showing 
 ***Getting correct word's end***
 
 '''
-def get_correct_end(amount, core_word, end_0, end_1, end_2):
+def get_correct_end(amount, core_word, end_0, end_1, end_2):    
+    
     """Функция подбирает правильное окончание слова для разных
     чисел, например: 1 помидор, 2 помидора, 5 помидоров.
     amount - количество, core_word - неизменная часть слова
@@ -48,6 +49,7 @@ def get_correct_end(amount, core_word, end_0, end_1, end_2):
 
 '''    
 def get_sliced_str(data_str, width=100, sep=' '):
+    
     """Функция вставляет символы перевода строки '\\n'
     если ширина строки больше width и обнаружен sep
     таким образом на выходе получаем многострочную строку
